@@ -1,0 +1,268 @@
+jeff@jeff-Nys-vaio:~$ ls
+Bureau     dwhelper  Modèles  Public  Téléchargements
+Documents  Images    Musique  snap    Vidéos
+jeff@jeff-Nys-vaio:~$ ls .
+Bureau     dwhelper  Modèles  Public  Téléchargements
+Documents  Images    Musique  snap    Vidéos
+jeff@jeff-Nys-vaio:~$ ls -a
+.              Documents    .mozilla                   .thunderbird
+..             dwhelper     Musique                    .var
+.bash_history  .gnupg       .pki                       Vidéos
+.bash_logout   .gtkrc-2.0   .profile                   .vscode
+.bashrc        .gtkrc-xfce  Public                     .Xauthority
+Bureau         .icons       snap                       .xsession-errors
+.cache         Images       .ssh                       .xsession-errors.old
+.cinnamon      .linuxmint   .sudo_as_admin_successful
+.config        .local       Téléchargements
+.dmrc          Modèles      .themes
+jeff@jeff-Nys-vaio:~$ ls Images/
+'deliveroo 01 infos de compte.png'
+'deliveroo 03 annulation facile.png'
+'deliveroo 04 cohérence et classement.png'
+'deliveroo 05 suggestions anti erreurs.png'
+'deliveroo 06 reconnaissance.png'
+'deliveroo 07 choix par tri ou par suggestions.png'
+'deliveroo 08 facile à selectionner.png'
+'deliveroo 09 corrections d erreurs.png'
+'deliveroo 10 aide et faq.png'
+'deliverro 02 monde réel.png'
+jeff@jeff-Nys-vaio:~$ ls ./Images/
+'deliveroo 01 infos de compte.png'
+'deliveroo 03 annulation facile.png'
+'deliveroo 04 cohérence et classement.png'
+'deliveroo 05 suggestions anti erreurs.png'
+'deliveroo 06 reconnaissance.png'
+'deliveroo 07 choix par tri ou par suggestions.png'
+'deliveroo 08 facile à selectionner.png'
+'deliveroo 09 corrections d erreurs.png'
+'deliveroo 10 aide et faq.png'
+'deliverro 02 monde réel.png'
+jeff@jeff-Nys-vaio:~$ ls /home/jeff/
+Bureau     dwhelper  Modèles  Public  Téléchargements
+Documents  Images    Musique  snap    Vidéos
+jeff@jeff-Nys-vaio:~$ ls /home/
+jeff
+jeff@jeff-Nys-vaio:~$ ls ..
+jeff
+jeff@jeff-Nys-vaio:~$ ls /bin
+archdetect          echo        nc.openbsd     ss
+bash                ed          netcat         static-sh
+brltty              egrep       netstat        stty
+btrfs               false       networkctl     su
+btrfsck             fgconsole   nisdomainname  sync
+btrfs-convert       fgrep       ntfs-3g        systemctl
+btrfs-find-root     findmnt     ntfs-3g.probe  systemd
+btrfs-image         fuser       ntfscat        systemd-ask-password
+btrfs-map-logical   fusermount  ntfscluster    systemd-escape
+btrfs-select-super  getfacl     ntfscmp        systemd-hwdb
+btrfstune           grep        ntfsfallocate  systemd-inhibit
+bunzip2             gunzip      ntfsfix        systemd-machine-id-setup
+busybox             gzexe       ntfsinfo       systemd-notify
+bzcat               gzip        ntfsls         systemd-sysusers
+bzcmp               hciconfig   ntfsmove       systemd-tmpfiles
+bzdiff              hostname    ntfsrecover    systemd-tty-ask-password-agent
+bzegrep             ip          ntfssecaudit   tar
+bzexe               journalctl  ntfstruncate   tempfile
+bzfgrep             kbd_mode    ntfsusermap    touch
+bzgrep              keyctl      ntfswipe       true
+bzip2               kill        openvt         udevadm
+bzip2recover        kmod        pidof          ulockmgr_server
+bzless              ln          ping           umount
+bzmore              loadkeys    ping4          uname
+cat                 login       ping6          uncompress
+chacl               loginctl    plymouth       unicode_start
+chgrp               lowntfs-3g  ps             vdir
+chmod               ls          pwd            wdctl
+chown               lsblk       rbash          which
+chvt                lsmod       readlink       ypdomainname
+cp                  mkdir       red            zcat
+cpio                mknod       rm             zcmp
+dash                mktemp      rmdir          zdiff
+date                more        rnano          zegrep
+dd                  mount       run-parts      zfgrep
+df                  mountpoint  sed            zforce
+dir                 mt          setfacl        zgrep
+dmesg               mt-gnu      setfont        zless
+dnsdomainname       mv          setupcon       zmore
+domainname          nano        sh             znew
+dumpkeys            nc          sleep
+jeff@jeff-Nys-vaio:~$ ls -l /bon
+ls: impossible d'accéder à '/bon': Aucun fichier ou dossier de ce type
+jeff@jeff-Nys-vaio:~$ ls -l /bin
+total 18088
+-rwxr-xr-x 1 root root   14408 mars  22  2019 archdetect
+-rwxr-xr-x 1 root root 1183448 juin  18 17:44 bash
+-rwxr-xr-x 1 root root  818800 mars   3  2020 brltty
+-rwxr-xr-x 1 root root  819296 févr. 15  2020 btrfs
+lrwxrwxrwx 1 root root       5 sept.  4 13:34 btrfsck -> btrfs
+-rwxr-xr-x 1 root root  466464 févr. 15  2020 btrfs-convert
+-rwxr-xr-x 1 root root  433760 févr. 15  2020 btrfs-find-root
+-rwxr-xr-x 1 root root  462368 févr. 15  2020 btrfs-image
+-rwxr-xr-x 1 root root  441888 févr. 15  2020 btrfs-map-logical
+-rwxr-xr-x 1 root root  441888 févr. 15  2020 btrfs-select-super
+-rwxr-xr-x 1 root root  437792 févr. 15  2020 btrfstune
+-rwxr-xr-x 1 root root   39144 sept.  5  2019 bunzip2
+-rwxr-xr-x 1 root root 2172376 mai   19 17:16 busybox
+-rwxr-xr-x 1 root root   39144 sept.  5  2019 bzcat
+lrwxrwxrwx 1 root root       6 sept.  4 13:34 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2227 sept.  5  2019 bzdiff
+lrwxrwxrwx 1 root root       6 sept.  4 13:34 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 sept.  4  2019 bzexe
+lrwxrwxrwx 1 root root       6 sept.  4 13:34 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3775 sept.  5  2019 bzgrep
+-rwxr-xr-x 1 root root   39144 sept.  5  2019 bzip2
+-rwxr-xr-x 1 root root   18584 sept.  5  2019 bzip2recover
+lrwxrwxrwx 1 root root       6 sept.  4 13:34 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 sept.  5  2019 bzmore
+-rwxr-xr-x 1 root root   43416 sept.  5  2019 cat
+-rwxr-xr-x 1 root root   18584 mars   1  2020 chacl
+-rwxr-xr-x 1 root root   72024 sept.  5  2019 chgrp
+-rwxr-xr-x 1 root root   63864 sept.  5  2019 chmod
+-rwxr-xr-x 1 root root   72024 sept.  5  2019 chown
+-rwxr-xr-x 1 root root   14408 mai    9  2019 chvt
+-rwxr-xr-x 1 root root  153976 sept.  5  2019 cp
+-rwxr-xr-x 1 root root  165504 févr.  1  2020 cpio
+-rwxr-xr-x 1 root root  129816 juil. 18  2019 dash
+-rwxr-xr-x 1 root root  108920 sept.  5  2019 date
+-rwxr-xr-x 1 root root   80256 sept.  5  2019 dd
+-rwxr-xr-x 1 root root   93128 sept.  5  2019 df
+-rwxr-xr-x 1 root root  142144 sept.  5  2019 dir
+-rwxr-xr-x 1 root root   84440 avril  2 17:29 dmesg
+lrwxrwxrwx 1 root root       8 sept.  4 13:34 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 sept.  4 13:34 domainname -> hostname
+-rwxr-xr-x 1 root root  178712 mai    9  2019 dumpkeys
+-rwxr-xr-x 1 root root   39256 sept.  5  2019 echo
+-rwxr-xr-x 1 root root   55504 févr. 22  2020 ed
+-rwxr-xr-x 1 root root      28 janv. 29  2020 egrep
+-rwxr-xr-x 1 root root   39256 sept.  5  2019 false
+-rwxr-xr-x 1 root root   14408 mai    9  2019 fgconsole
+-rwxr-xr-x 1 root root      28 janv. 29  2020 fgrep
+-rwxr-xr-x 1 root root   73128 avril  2 17:29 findmnt
+-rwxr-xr-x 1 root root   40184 nov.  12  2019 fuser
+-rwsr-xr-x 1 root root   39144 mars   7  2020 fusermount
+-rwxr-xr-x 1 root root   31512 mars   1  2020 getfacl
+-rwxr-xr-x 1 root root  199136 janv. 29  2020 grep
+-rwxr-xr-x 1 root root    2346 déc.  13  2019 gunzip
+-rwxr-xr-x 1 root root    6376 déc.  13  2019 gzexe
+-rwxr-xr-x 1 root root   97496 déc.  13  2019 gzip
+-rwxr-xr-x 1 root root  200888 avril  3 08:47 hciconfig
+-rwxr-xr-x 1 root root   26856 nov.   7  2019 hostname
+-rwxr-xr-x 1 root root  611960 févr. 13  2020 ip
+-rwxr-xr-x 1 root root   75872 juil.  6 23:38 journalctl
+-rwxr-xr-x 1 root root   14408 mai    9  2019 kbd_mode
+-rwxr-xr-x 1 root root   43392 oct.  20  2019 keyctl
+-rwxr-xr-x 1 root root   30952 févr. 27  2020 kill
+-rwxr-xr-x 1 root root  174424 mars  12  2020 kmod
+-rwxr-xr-x 1 root root   76160 sept.  5  2019 ln
+-rwxr-xr-x 1 root root  215624 mai    9  2019 loadkeys
+-rwxr-xr-x 1 root root   57104 mai   28 08:37 login
+-rwxr-xr-x 1 root root   55480 juil.  6 23:38 loginctl
+-rwxr-xr-x 1 root root  117456 mai    3  2019 lowntfs-3g
+-rwxr-xr-x 1 root root  142144 sept.  5  2019 ls
+-rwxr-xr-x 1 root root  133352 avril  2 17:29 lsblk
+lrwxrwxrwx 1 root root       4 sept.  4 13:34 lsmod -> kmod
+-rwxr-xr-x 1 root root   88408 sept.  5  2019 mkdir
+-rwxr-xr-x 1 root root   72024 sept.  5  2019 mknod
+-rwxr-xr-x 1 root root   47448 sept.  5  2019 mktemp
+-rwxr-xr-x 1 root root   43160 avril  2 17:29 more
+-rwsr-xr-x 1 root root   55528 avril  2 17:29 mount
+-rwxr-xr-x 1 root root   14568 avril  2 17:29 mountpoint
+lrwxrwxrwx 1 root root      20 sept.  4 13:34 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   88864 févr.  1  2020 mt-gnu
+-rwxr-xr-x 1 root root  149888 sept.  5  2019 mv
+-rwxr-xr-x 1 root root  320136 avril 10 16:12 nano
+lrwxrwxrwx 1 root root      20 sept.  4 13:34 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   43664 mars   9  2020 nc.openbsd
+lrwxrwxrwx 1 root root      24 sept.  4 13:34 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root  158288 févr.  1  2019 netstat
+-rwxr-xr-x 1 root root   71752 juil.  6 23:38 networkctl
+lrwxrwxrwx 1 root root       8 sept.  4 13:34 nisdomainname -> hostname
+-rwxr-xr-x 1 root root  158448 mai    3  2019 ntfs-3g
+-rwxr-xr-x 1 root root   14408 mai    3  2019 ntfs-3g.probe
+-rwxr-xr-x 1 root root   34920 mai    3  2019 ntfscat
+-rwxr-xr-x 1 root root   39016 mai    3  2019 ntfscluster
+-rwxr-xr-x 1 root root   39016 mai    3  2019 ntfscmp
+-rwxr-xr-x 1 root root   39024 mai    3  2019 ntfsfallocate
+-rwxr-xr-x 1 root root   43120 mai    3  2019 ntfsfix
+-rwxr-xr-x 1 root root   59512 mai    3  2019 ntfsinfo
+-rwxr-xr-x 1 root root   36024 mai    3  2019 ntfsls
+-rwxr-xr-x 1 root root   39016 mai    3  2019 ntfsmove
+-rwxr-xr-x 1 root root  125032 mai    3  2019 ntfsrecover
+-rwxr-xr-x 1 root root   96864 mai    3  2019 ntfssecaudit
+-rwxr-xr-x 1 root root   43040 mai    3  2019 ntfstruncate
+-rwxr-xr-x 1 root root   38936 mai    3  2019 ntfsusermap
+-rwxr-xr-x 1 root root   47752 mai    3  2019 ntfswipe
+-rwxr-xr-x 1 root root   22968 mai    9  2019 openvt
+lrwxrwxrwx 1 root root      14 sept.  4 13:34 pidof -> /sbin/killall5
+-rwxr-xr-x 1 root root   72776 janv. 31  2020 ping
+lrwxrwxrwx 1 root root       4 sept.  4 13:34 ping4 -> ping
+lrwxrwxrwx 1 root root       4 sept.  4 13:34 ping6 -> ping
+-rwxr-xr-x 1 root root   51352 avril  1 11:49 plymouth
+-rwxr-xr-x 1 root root  137688 févr. 27  2020 ps
+-rwxr-xr-x 1 root root   43352 sept.  5  2019 pwd
+lrwxrwxrwx 1 root root       4 juin  18 17:44 rbash -> bash
+-rwxr-xr-x 1 root root   51544 sept.  5  2019 readlink
+-rwxr-xr-x 1 root root      89 févr. 22  2020 red
+-rwxr-xr-x 1 root root   72056 sept.  5  2019 rm
+-rwxr-xr-x 1 root root   47448 sept.  5  2019 rmdir
+lrwxrwxrwx 1 root root       4 sept.  4 13:34 rnano -> nano
+-rwxr-xr-x 1 root root   27144 déc.   7  2019 run-parts
+-rwxr-xr-x 1 root root  121288 déc.  22  2018 sed
+-rwxr-xr-x 1 root root   39768 mars   1  2020 setfacl
+-rwxr-xr-x 1 root root   47240 mai    9  2019 setfont
+-rwxr-xr-x 1 root root   39233 mai    6 17:36 setupcon
+lrwxrwxrwx 1 root root       4 sept.  4 13:34 sh -> dash
+-rwxr-xr-x 1 root root   39256 sept.  5  2019 sleep
+-rwxr-xr-x 1 root root  168800 févr. 13  2020 ss
+lrwxrwxrwx 1 root root       7 mai   19 17:16 static-sh -> busybox
+-rwxr-xr-x 1 root root   84344 sept.  5  2019 stty
+-rwsr-xr-x 1 root root   67816 avril  2 17:29 su
+-rwxr-xr-x 1 root root   39256 sept.  5  2019 sync
+-rwxr-xr-x 1 root root  988232 juil.  6 23:38 systemctl
+lrwxrwxrwx 1 root root      20 juil.  6 23:38 systemd -> /lib/systemd/systemd
+-rwxr-xr-x 1 root root   14520 juil.  6 23:38 systemd-ask-password
+-rwxr-xr-x 1 root root   18496 juil.  6 23:38 systemd-escape
+-rwxr-xr-x 1 root root  104816 juil.  6 23:38 systemd-hwdb
+-rwxr-xr-x 1 root root   22616 juil.  6 23:38 systemd-inhibit
+-rwxr-xr-x 1 root root   26792 juil.  6 23:38 systemd-machine-id-setup
+-rwxr-xr-x 1 root root   18504 juil.  6 23:38 systemd-notify
+-rwxr-xr-x 1 root root   55664 juil.  6 23:38 systemd-sysusers
+-rwxr-xr-x 1 root root   84224 juil.  6 23:38 systemd-tmpfiles
+-rwxr-xr-x 1 root root   30792 juil.  6 23:38 systemd-tty-ask-password-agent
+-rwxr-xr-x 1 root root  448112 mars  14  2020 tar
+-rwxr-xr-x 1 root root   14360 déc.   7  2019 tempfile
+-rwxr-xr-x 1 root root  100728 sept.  5  2019 touch
+-rwxr-xr-x 1 root root   39256 sept.  5  2019 true
+-rwxr-xr-x 1 root root  932912 juil.  6 23:38 udevadm
+-rwxr-xr-x 1 root root   18584 mars   7  2020 ulockmgr_server
+-rwsr-xr-x 1 root root   39144 avril  2 17:29 umount
+-rwxr-xr-x 1 root root   39288 sept.  5  2019 uname
+-rwxr-xr-x 1 root root    2346 déc.  13  2019 uncompress
+-rwxr-xr-x 1 root root    2762 mai    9  2019 unicode_start
+-rwxr-xr-x 1 root root  142144 sept.  5  2019 vdir
+-rwxr-xr-x 1 root root   35048 avril  2 17:29 wdctl
+-rwxr-xr-x 1 root root     946 déc.   7  2019 which
+lrwxrwxrwx 1 root root       8 sept.  4 13:34 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1984 déc.  13  2019 zcat
+-rwxr-xr-x 1 root root    1678 déc.  13  2019 zcmp
+-rwxr-xr-x 1 root root    5880 déc.  13  2019 zdiff
+-rwxr-xr-x 1 root root      29 déc.  13  2019 zegrep
+-rwxr-xr-x 1 root root      29 déc.  13  2019 zfgrep
+-rwxr-xr-x 1 root root    2081 déc.  13  2019 zforce
+-rwxr-xr-x 1 root root    7585 déc.  13  2019 zgrep
+-rwxr-xr-x 1 root root    2206 déc.  13  2019 zless
+-rwxr-xr-x 1 root root    1842 déc.  13  2019 zmore
+-rwxr-xr-x 1 root root    4553 déc.  13  2019 znew
+jeff@jeff-Nys-vaio:~$ pwd
+/home/jeff
+jeff@jeff-Nys-vaio:~$ cd
+jeff@jeff-Nys-vaio:~$ cd Images/
+jeff@jeff-Nys-vaio:~/Images$ cd ..
+jeff@jeff-Nys-vaio:~$ cd /opt
+jeff@jeff-Nys-vaio:/opt$ cd ../home/jeff/
+jeff@jeff-Nys-vaio:~$ cd /usr/bin
+jeff@jeff-Nys-vaio:/usr/bin$ cd
+jeff@jeff-Nys-vaio:~$ cd ~/M
+Modèles/ Musique/ 
+jeff@jeff-Nys-vaio:~$ cd ~/Musique/
+jeff@jeff-Nys-vaio:~/Musique$ 
